@@ -24,9 +24,10 @@ class ViewController: UIViewController {
         let scene = SKScene(size: self.view.frame.size)
         view.presentScene(scene)
         
+//        let url = URL(string: "http://kolor.com/360-videos-files/kolor-balloon-icare-full-hd.mp4")!
+//        let url = URL(string: "https://www.youtube.com/watch?v=d1JA-nh0IfI")!
+        let url = URL(string: "http://www.html5videoplayer.net/videos/toystory.mp4")!
         
-        let url = URL(string: "https://www.youtube.com/watch?v=d1JA-nh0IfI")!
-
         let asset = AVURLAsset.init(url: url)
         
         playerItem = AVPlayerItem(asset: asset)
@@ -34,13 +35,10 @@ class ViewController: UIViewController {
         
         videoNode = SKVideoNode.init(avPlayer: player!)
         
-//        let url = Bundle.main.url(forResource: "sample", withExtension: "mp4")!
-//        videoNode = SKVideoNode.init(url: url)
-        
         videoNode?.position = CGPoint(x: scene.size.width/2, y: scene.size.height/2)
+        videoNode?.size = CGSize(width: 300, height: 300)//self.view.frame.size
         
         scene.addChild(videoNode!)
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {
