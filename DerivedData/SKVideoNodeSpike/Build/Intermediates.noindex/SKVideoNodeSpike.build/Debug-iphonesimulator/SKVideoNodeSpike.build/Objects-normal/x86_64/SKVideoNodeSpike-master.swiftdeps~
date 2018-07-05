@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "e00c1251c7b13067cc978cc02ccfe6b1"
+build_time: [1530779699, 231568000]
+inputs:
+  "/Users/dna/Movies/dexter/SKVideoNodeSpike/SKVideoNodeSpike/ViewController.swift": [1530779698, 0]
+  "/Users/dna/Movies/dexter/SKVideoNodeSpike/SKVideoNodeSpike/AppDelegate.swift": [1530778458, 0]

@@ -1,0 +1,667 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "16SKVideoNodeSpike14ViewControllerC"
+provides-member:
+- ["16SKVideoNodeSpike14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- !private "/"
+- "AVPlayer"
+- "AVPlayerItem"
+- !private "AVURLAsset"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "Bundle"
+- !private "CGPoint"
+- "CastingPrecedence"
+- !private "SKScene"
+- "SKVideoNode"
+- !private "SKView"
+- !private "StringLiteralType"
+- "UIViewController"
+- "ViewController"
+depends-member:
+- !private ["So7AVAssetC", "init"]
+- !private ["So29AVAsynchronousKeyValueLoadingP", "init"]
+- !private ["So21AVContentKeyRecipientP", "init"]
+- !private ["So8AVPlayerC", "init"]
+- !private ["So12AVPlayerItemC", "init"]
+- !private ["So10AVURLAssetC", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So6BundleC", "main"]
+- !private ["So6BundleC", "url"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "presentScene"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "AVPlayer"]
+- !private ["s7CVarArgP", "AVPlayerItem"]
+- !private ["s7CVarArgP", "AVURLAsset"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "SKScene"]
+- !private ["s7CVarArgP", "SKVideoNode"]
+- !private ["s7CVarArgP", "addChild"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "playerItem"]
+- !private ["s7CVarArgP", "position"]
+- !private ["s7CVarArgP", "presentScene"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "videoNode"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidAppear"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AVPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "AVPlayerItem"]
+- !private ["s28CustomDebugStringConvertibleP", "AVURLAsset"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "SKScene"]
+- !private ["s28CustomDebugStringConvertibleP", "SKVideoNode"]
+- !private ["s28CustomDebugStringConvertibleP", "addChild"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "playerItem"]
+- !private ["s28CustomDebugStringConvertibleP", "position"]
+- !private ["s28CustomDebugStringConvertibleP", "presentScene"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "videoNode"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "AVPlayer"]
+- !private ["s23CustomStringConvertibleP", "AVPlayerItem"]
+- !private ["s23CustomStringConvertibleP", "AVURLAsset"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "SKScene"]
+- !private ["s23CustomStringConvertibleP", "SKVideoNode"]
+- !private ["s23CustomStringConvertibleP", "addChild"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "playerItem"]
+- !private ["s23CustomStringConvertibleP", "position"]
+- !private ["s23CustomStringConvertibleP", "presentScene"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "videoNode"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidAppear"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "AVPlayer"]
+- !private ["s9EquatableP", "AVPlayerItem"]
+- !private ["s9EquatableP", "AVURLAsset"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "SKScene"]
+- !private ["s9EquatableP", "SKVideoNode"]
+- !private ["s9EquatableP", "addChild"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "play"]
+- !private ["s9EquatableP", "player"]
+- !private ["s9EquatableP", "playerItem"]
+- !private ["s9EquatableP", "position"]
+- !private ["s9EquatableP", "presentScene"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "url"]
+- !private ["s9EquatableP", "videoNode"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidAppear"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "width"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AVPlayer"]
+- !private ["s8HashableP", "AVPlayerItem"]
+- !private ["s8HashableP", "AVURLAsset"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "SKScene"]
+- !private ["s8HashableP", "SKVideoNode"]
+- !private ["s8HashableP", "addChild"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "play"]
+- !private ["s8HashableP", "player"]
+- !private ["s8HashableP", "playerItem"]
+- !private ["s8HashableP", "position"]
+- !private ["s8HashableP", "presentScene"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "url"]
+- !private ["s8HashableP", "videoNode"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidAppear"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "AVPlayer"]
+- !private ["So8NSCodingP", "AVPlayerItem"]
+- !private ["So8NSCodingP", "AVURLAsset"]
+- !private ["So8NSCodingP", "Bundle"]
+- !private ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "SKScene"]
+- !private ["So8NSCodingP", "SKVideoNode"]
+- !private ["So8NSCodingP", "addChild"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "play"]
+- !private ["So8NSCodingP", "player"]
+- !private ["So8NSCodingP", "playerItem"]
+- !private ["So8NSCodingP", "position"]
+- !private ["So8NSCodingP", "presentScene"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "videoNode"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidAppear"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "addChild"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "play"]
+- !private ["So9NSCopyingP", "position"]
+- !private ["So9NSCopyingP", "size"]
+- !private ["So26NSExtensionRequestHandlingP", "AVPlayer"]
+- !private ["So26NSExtensionRequestHandlingP", "AVPlayerItem"]
+- !private ["So26NSExtensionRequestHandlingP", "AVURLAsset"]
+- !private ["So26NSExtensionRequestHandlingP", "Bundle"]
+- !private ["So26NSExtensionRequestHandlingP", "CGPoint"]
+- !private ["So26NSExtensionRequestHandlingP", "SKScene"]
+- !private ["So26NSExtensionRequestHandlingP", "SKVideoNode"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "player"]
+- !private ["So26NSExtensionRequestHandlingP", "playerItem"]
+- !private ["So26NSExtensionRequestHandlingP", "videoNode"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AVPlayer"]
+- ["So8NSObjectC", "AVPlayerItem"]
+- !private ["So8NSObjectC", "AVURLAsset"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "CGPoint"]
+- !private ["So8NSObjectC", "SKScene"]
+- ["So8NSObjectC", "SKVideoNode"]
+- !private ["So8NSObjectC", "SKView"]
+- !private ["So8NSObjectC", "addChild"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "play"]
+- ["So8NSObjectC", "player"]
+- ["So8NSObjectC", "playerItem"]
+- !private ["So8NSObjectC", "position"]
+- !private ["So8NSObjectC", "presentScene"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So8NSObjectC", "url"]
+- ["So8NSObjectC", "videoNode"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidAppear"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "AVPlayer"]
+- !private ["So16NSObjectProtocolP", "AVPlayerItem"]
+- !private ["So16NSObjectProtocolP", "AVURLAsset"]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "SKScene"]
+- !private ["So16NSObjectProtocolP", "SKVideoNode"]
+- !private ["So16NSObjectProtocolP", "addChild"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "play"]
+- !private ["So16NSObjectProtocolP", "player"]
+- !private ["So16NSObjectProtocolP", "playerItem"]
+- !private ["So16NSObjectProtocolP", "position"]
+- !private ["So16NSObjectProtocolP", "presentScene"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So16NSObjectProtocolP", "videoNode"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidAppear"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["So12SKEffectNodeC", "addChild"]
+- !private ["So12SKEffectNodeC", "init"]
+- !private ["So12SKEffectNodeC", "size"]
+- !private ["So6SKNodeC", "addChild"]
+- !private ["So6SKNodeC", "init"]
+- !private ["So6SKNodeC", "play"]
+- !private ["So6SKNodeC", "position"]
+- !private ["So6SKNodeC", "size"]
+- !private ["So7SKSceneC", "addChild"]
+- !private ["So7SKSceneC", "init"]
+- !private ["So7SKSceneC", "size"]
+- !private ["So11SKVideoNodeC", "init"]
+- !private ["So11SKVideoNodeC", "play"]
+- !private ["So11SKVideoNodeC", "position"]
+- !private ["So6SKViewC", "presentScene"]
+- !private ["So10SKWarpableP", "addChild"]
+- !private ["So10SKWarpableP", "init"]
+- !private ["So10SKWarpableP", "size"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "presentScene"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "presentScene"]
+- !private ["So21UIAppearanceContainerP", "AVPlayer"]
+- !private ["So21UIAppearanceContainerP", "AVPlayerItem"]
+- !private ["So21UIAppearanceContainerP", "AVURLAsset"]
+- !private ["So21UIAppearanceContainerP", "Bundle"]
+- !private ["So21UIAppearanceContainerP", "CGPoint"]
+- !private ["So21UIAppearanceContainerP", "SKScene"]
+- !private ["So21UIAppearanceContainerP", "SKVideoNode"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "player"]
+- !private ["So21UIAppearanceContainerP", "playerItem"]
+- !private ["So21UIAppearanceContainerP", "presentScene"]
+- !private ["So21UIAppearanceContainerP", "videoNode"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidAppear"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "AVPlayer"]
+- !private ["So18UIContentContainerP", "AVPlayerItem"]
+- !private ["So18UIContentContainerP", "AVURLAsset"]
+- !private ["So18UIContentContainerP", "Bundle"]
+- !private ["So18UIContentContainerP", "CGPoint"]
+- !private ["So18UIContentContainerP", "SKScene"]
+- !private ["So18UIContentContainerP", "SKVideoNode"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "player"]
+- !private ["So18UIContentContainerP", "playerItem"]
+- !private ["So18UIContentContainerP", "videoNode"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidAppear"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "presentScene"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "presentScene"]
+- !private ["So18UIFocusEnvironmentP", "AVPlayer"]
+- !private ["So18UIFocusEnvironmentP", "AVPlayerItem"]
+- !private ["So18UIFocusEnvironmentP", "AVURLAsset"]
+- !private ["So18UIFocusEnvironmentP", "Bundle"]
+- !private ["So18UIFocusEnvironmentP", "CGPoint"]
+- !private ["So18UIFocusEnvironmentP", "SKScene"]
+- !private ["So18UIFocusEnvironmentP", "SKVideoNode"]
+- !private ["So18UIFocusEnvironmentP", "addChild"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "play"]
+- !private ["So18UIFocusEnvironmentP", "player"]
+- !private ["So18UIFocusEnvironmentP", "playerItem"]
+- !private ["So18UIFocusEnvironmentP", "position"]
+- !private ["So18UIFocusEnvironmentP", "presentScene"]
+- !private ["So18UIFocusEnvironmentP", "size"]
+- !private ["So18UIFocusEnvironmentP", "videoNode"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidAppear"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "addChild"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "play"]
+- !private ["So11UIFocusItemP", "position"]
+- !private ["So11UIFocusItemP", "presentScene"]
+- !private ["So11UIFocusItemP", "size"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVPlayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVPlayerItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVURLAsset"]
+- !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGPoint"]
+- !private ["So30UIPasteConfigurationSupportingP", "SKScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "SKVideoNode"]
+- !private ["So30UIPasteConfigurationSupportingP", "addChild"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "play"]
+- !private ["So30UIPasteConfigurationSupportingP", "player"]
+- !private ["So30UIPasteConfigurationSupportingP", "playerItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "position"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentScene"]
+- !private ["So30UIPasteConfigurationSupportingP", "size"]
+- !private ["So30UIPasteConfigurationSupportingP", "videoNode"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AVPlayer"]
+- ["So11UIResponderC", "AVPlayerItem"]
+- !private ["So11UIResponderC", "AVURLAsset"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "Bundle"]
+- !private ["So11UIResponderC", "CGPoint"]
+- !private ["So11UIResponderC", "SKScene"]
+- ["So11UIResponderC", "SKVideoNode"]
+- !private ["So11UIResponderC", "SKView"]
+- !private ["So11UIResponderC", "addChild"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "play"]
+- ["So11UIResponderC", "player"]
+- ["So11UIResponderC", "playerItem"]
+- !private ["So11UIResponderC", "position"]
+- !private ["So11UIResponderC", "presentScene"]
+- !private ["So11UIResponderC", "size"]
+- ["So11UIResponderC", "videoNode"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidAppear"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AVPlayer"]
+- !private ["So30UIResponderStandardEditActionsP", "AVPlayerItem"]
+- !private ["So30UIResponderStandardEditActionsP", "AVURLAsset"]
+- !private ["So30UIResponderStandardEditActionsP", "Bundle"]
+- !private ["So30UIResponderStandardEditActionsP", "CGPoint"]
+- !private ["So30UIResponderStandardEditActionsP", "SKScene"]
+- !private ["So30UIResponderStandardEditActionsP", "SKVideoNode"]
+- !private ["So30UIResponderStandardEditActionsP", "addChild"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "play"]
+- !private ["So30UIResponderStandardEditActionsP", "player"]
+- !private ["So30UIResponderStandardEditActionsP", "playerItem"]
+- !private ["So30UIResponderStandardEditActionsP", "position"]
+- !private ["So30UIResponderStandardEditActionsP", "presentScene"]
+- !private ["So30UIResponderStandardEditActionsP", "size"]
+- !private ["So30UIResponderStandardEditActionsP", "videoNode"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "AVPlayer"]
+- !private ["So16UIStateRestoringP", "AVPlayerItem"]
+- !private ["So16UIStateRestoringP", "AVURLAsset"]
+- !private ["So16UIStateRestoringP", "Bundle"]
+- !private ["So16UIStateRestoringP", "CGPoint"]
+- !private ["So16UIStateRestoringP", "SKScene"]
+- !private ["So16UIStateRestoringP", "SKVideoNode"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "player"]
+- !private ["So16UIStateRestoringP", "playerItem"]
+- !private ["So16UIStateRestoringP", "videoNode"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidAppear"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "AVPlayer"]
+- !private ["So18UITraitEnvironmentP", "AVPlayerItem"]
+- !private ["So18UITraitEnvironmentP", "AVURLAsset"]
+- !private ["So18UITraitEnvironmentP", "Bundle"]
+- !private ["So18UITraitEnvironmentP", "CGPoint"]
+- !private ["So18UITraitEnvironmentP", "SKScene"]
+- !private ["So18UITraitEnvironmentP", "SKVideoNode"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "player"]
+- !private ["So18UITraitEnvironmentP", "playerItem"]
+- !private ["So18UITraitEnvironmentP", "presentScene"]
+- !private ["So18UITraitEnvironmentP", "videoNode"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidAppear"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "presentScene"]
+- ["So16UIViewControllerC", "AVPlayer"]
+- ["So16UIViewControllerC", "AVPlayerItem"]
+- !private ["So16UIViewControllerC", "AVURLAsset"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "Bundle"]
+- !private ["So16UIViewControllerC", "CGPoint"]
+- !private ["So16UIViewControllerC", "SKScene"]
+- ["So16UIViewControllerC", "SKVideoNode"]
+- !private ["So16UIViewControllerC", "SKView"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "player"]
+- ["So16UIViewControllerC", "playerItem"]
+- ["So16UIViewControllerC", "videoNode"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidAppear"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- ["16SKVideoNodeSpike14ViewControllerC", "AVPlayer"]
+- ["16SKVideoNodeSpike14ViewControllerC", "AVPlayerItem"]
+- !private ["16SKVideoNodeSpike14ViewControllerC", "AVURLAsset"]
+- ["16SKVideoNodeSpike14ViewControllerC", "Bool"]
+- !private ["16SKVideoNodeSpike14ViewControllerC", "Bundle"]
+- !private ["16SKVideoNodeSpike14ViewControllerC", "CGPoint"]
+- !private ["16SKVideoNodeSpike14ViewControllerC", "SKScene"]
+- ["16SKVideoNodeSpike14ViewControllerC", "SKVideoNode"]
+- !private ["16SKVideoNodeSpike14ViewControllerC", "SKView"]
+- ["16SKVideoNodeSpike14ViewControllerC", "deinit"]
+- ["16SKVideoNodeSpike14ViewControllerC", "didReceiveMemoryWarning"]
+- ["16SKVideoNodeSpike14ViewControllerC", "init"]
+- ["16SKVideoNodeSpike14ViewControllerC", "player"]
+- ["16SKVideoNodeSpike14ViewControllerC", "playerItem"]
+- ["16SKVideoNodeSpike14ViewControllerC", "videoNode"]
+- !private ["16SKVideoNodeSpike14ViewControllerC", "view"]
+- ["16SKVideoNodeSpike14ViewControllerC", "viewDidAppear"]
+- ["16SKVideoNodeSpike14ViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "presentScene"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayerItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVURLAsset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SKScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SKVideoNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addChild"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "playerItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentScene"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "videoNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So7AVAssetC"
+- !private "So29AVAsynchronousKeyValueLoadingP"
+- !private "So21AVContentKeyRecipientP"
+- !private "So8AVPlayerC"
+- !private "So12AVPlayerItemC"
+- !private "So10AVURLAssetC"
+- !private "s23BidirectionalCollectionP"
+- !private "So6BundleC"
+- !private "So15CALayerDelegateP"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "So12SKEffectNodeC"
+- !private "So6SKNodeC"
+- !private "So7SKSceneC"
+- !private "So11SKVideoNodeC"
+- !private "So6SKViewC"
+- !private "So10SKWarpableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "16SKVideoNodeSpike14ViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "16c41c4fdf85b22a2849ddfde38209d1"

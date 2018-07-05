@@ -12,6 +12,7 @@
 		A29F571520EE0ADA0054AB14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29F571320EE0ADA0054AB14 /* Main.storyboard */; };
 		A29F571720EE0ADA0054AB14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29F571620EE0ADA0054AB14 /* Assets.xcassets */; };
 		A29F571A20EE0ADA0054AB14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29F571820EE0ADA0054AB14 /* LaunchScreen.storyboard */; };
+		A29F572320EE0D4B0054AB14 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A29F572220EE0D4B0054AB14 /* sample.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A29F571620EE0ADA0054AB14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A29F571920EE0ADA0054AB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A29F571B20EE0ADA0054AB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29F572220EE0D4B0054AB14 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				A29F570E20EE0ADA0054AB14 /* SKVideoNodeSpike */,
 				A29F570D20EE0ADA0054AB14 /* Products */,
+				A29F572220EE0D4B0054AB14 /* sample.mp4 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +129,7 @@
 				A29F571A20EE0ADA0054AB14 /* LaunchScreen.storyboard in Resources */,
 				A29F571720EE0ADA0054AB14 /* Assets.xcassets in Resources */,
 				A29F571520EE0ADA0054AB14 /* Main.storyboard in Resources */,
+				A29F572320EE0D4B0054AB14 /* sample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
